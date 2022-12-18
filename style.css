@@ -313,20 +313,24 @@ button:focus {
 
 @media only screen and (max-width: 800px) {
   .cardList__btn.btn--left {
-    left: 18%;
-  }
-  .cardList__btn.cardList__btn.btn--right {
-    right: 18%;
-  }
-}
-/* @media only screen and (max-width: 350px) {
-  .cardList__btn.btn--left {
     left: 19%;
   }
   .cardList__btn.cardList__btn.btn--right {
     right: 19%;
   }
-} */
+}
+@media only screen and (max-width: 400px) {
+  .info {
+    margin-bottom: 0;
+    margin-left: 0;
+    position: absolute;
+    bottom: -32%;
+  }
+  .infoList .info__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+}
 .support {
   position: absolute;
   right: 10px;
